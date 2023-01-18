@@ -1,0 +1,927 @@
+
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-e
+        quiv="x-ua-compatible" content="ie=edge">
+        <title>Aulia & Fiki</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:image" content="assets/foto/3.jpeg" />
+
+        <link rel="manifest" href="site.webmanifest">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<!-- CSS here -->
+            <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+            <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+            <link rel="stylesheet" href="assets/css/flaticon.css">
+            <link rel="stylesheet" href="assets/css/slicknav.css">
+            <link rel="stylesheet" href="assets/css/magnific-popup.css">
+            <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+            <link rel="stylesheet" href="assets/css/themify-icons.css">
+            <link rel="stylesheet" href="assets/css/slick.css">
+            <link rel="stylesheet" href="assets/css/nice-select.css">
+            <link rel="stylesheet" href="assets/css/animate.min.css">
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+            <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+            <link rel="stylesheet" href="assets/css/style4.css">
+            <link rel="stylesheet" href="assets/css/audio.css">
+            <style>
+                .aclass{
+                    color: brown;
+                }
+                .aclass:hover{
+                    color: #800098;
+                }
+            </style>
+   </head>
+
+   <body>
+
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="assets/foto/wedding-rings.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+
+    <!-- <audio hidden autoplay loop>
+        <source src="lagu.mp3" type="audio/mpeg">
+        Browsermu tidak mendukung tag audio
+    </audio> -->
+
+
+    <a href="#play" class="play-btn d-none" id="play-btn">
+        <img src="assets/foto/play.png" width="20" alt="" />
+    </a>
+    <a href="#pause" class="pause-btn d-none" id="pause-btn">
+        <img src="assets/foto/pause.png" width="20" alt="" />
+    </a>
+
+
+    <!-- Bottom Navbar -->
+    <nav class="d-none navbar navbar-dark navbar-expand fixed-bottom" style="background-color: #fff; border-radius: 25px; bottom: 34px; border-color: #C39A61" id="navbar">
+        <ul class="navbar-nav nav-justified w-100">
+          <li class="nav-item">
+            <a href="#top" class="nav-link">
+                <img src="assets/foto/home.png" class="img-fluid" width="40">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#love" class="nav-link">
+                <img src="assets/foto/love.png" class="img-fluid" width="40">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#date" class="nav-link">
+                <img src="assets/foto/calendar-dark.png" class="img-fluid" width="35" height="40">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#Memories-place" class="nav-link">
+                <img src="assets/foto/camera.png" class="img-fluid" width="40">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#amplop" class="nav-link">
+                <img src="assets/foto/amplop.png" class="img-fluid" width="40">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#message" class="nav-link">
+                <img src="assets/foto/chat.png" class="img-fluid" width="40">
+            </a>
+          </li>
+          
+        </ul>
+    </nav>
+
+    <main>
+
+    <audio id="audio" src="lagu2.mp3"></audio>
+    <div class="container" id="cover-depan" style="background-image: url('assets/foto/bg-wedding.png'); width: 100%; background-repeat: no-repeat; background-size: cover; padding-top: 10%;">
+            <div class="circle-caption">
+                    <center>
+                        <img src="assets/foto/title1.png" alt="" width="195">
+                        <div id="countdown" class="mt-3" style="padding-bottom:578px;">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div style=" border: 2px solid #133151;
+                                    padding: 8px;
+                                    border-radius: 10px;
+                                    width: 58px;
+                                    height: 72px;
+                                    background-color: #133151;
+                                    
+                                    ">
+                                        <p class="text-center text-white">
+                                            <span class="numbers days" style="font-size: 13px;">
+                                                00
+                                            </span>
+                                            <span style="font-size: 13px;">
+                                                Hari
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div style=" border: 2px solid #133151;
+                                    padding: 8px;
+                                    border-radius: 10px;
+                                    width: 58px;
+                                    height: 72px;
+                                    background-color: #133151;
+                                    ">
+                                        <p class="text-center text-white">
+                                            <span class="numbers hours" style="font-size: 13px;">00</span>
+                                            <span style="font-size: 13px;">Jam</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div style=" border: 2px solid #133151;
+                                    padding: 8px;
+                                    border-radius: 10px;
+                                    width: 58px;
+                                    height: 72px;
+                                    background-color: #133151;
+                                    ">
+                                        <p class="text-center text-white">
+                                            <span class="numbers minutes" style="font-size: 13px;">00</span>
+                                            <span style="font-size: 13px;">Menit</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div style=" border: 2px solid #133151;
+                                    padding: 8px;
+                                    border-radius: 10px;
+                                    width: 58px;
+                                    height: 72px;
+                                    background-color: #133151;
+                                    ">
+                                        <p class="text-center text-white">
+                                            <span class="numbers seconds" style="font-size: 13px;">00</span>
+                                            <span style="font-size: 13px;">Detik</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p style="margin-top: 26px; color:#EEB23C">Kepada Bapak/Ibu/Saudara/i </p>
+                        <div class="card" style="width: 18rem; margin-bottom: 11px;">
+                            <div class="card-body">
+                                <p class="card-text">
+                                                                    </p>
+                            </div>
+                        </div>
+                        <p style="padding-left: 30px; padding-right:30px; margin-bottom: 18px; color:#EEB23C;">
+                            Tanpa mengurangi rasa Hormat, Kami 
+                            mengundang anda untuk hadir di acara 
+                            pernikahan kami.
+                        </p>
+                        <!-- <a href="isi.php">
+                            <img src="assets/foto/btn.png" alt="" width="127">
+                        </a> -->
+                        <a href="#" id="btn-buka">
+                            <img src="assets/foto/btn.png" alt="" width="127">
+                        </a>
+                        <br><br><br>
+                    </center>
+            </div>
+        </div>
+        <div class="d-none" id="isi">
+                <div class="container" style="background-image: url('assets/foto/bg-2.png'); width: 100%; background-repeat: no-repeat; background-size: cover; padding-top: 10%; padding-bottom:10px">
+                    <div class="circle-caption">
+                        <center>
+                            <img src="assets/foto/title-awal.png" class="img-fluid" width="228" alt=""  style="margin-top: 100px;">
+                        </center>
+                        <br>
+                        <center>
+                            <img data-aos="fade-down" data-aos-duration="3000" src="assets/foto/foto1.png" class="img-fluid" width="404" alt=""  style="margin-top: 37px;">
+                        </center>
+                    </div>
+                </div>
+                <div id="love" class="container" style="background-image: url('assets/foto/bg-3.png'); width: 100%; background-repeat: no-repeat; background-size: cover; padding-top: 10%; padding-bottom:10px">
+                    <div class="circle-caption">
+                        <center>
+                            <img src="assets/foto/doa.png" class="img-fluid" width="270" alt=""  style="margin-top: 50px;">
+                        </center>
+                        <br>
+                        <center>
+                            <img data-aos="fade-left" data-aos-duration="3000" src="assets/foto/aulia.png" class="img-fluid" width="222" alt=""  style="margin-top: 37px;">
+                            <img src="assets/foto/gelar-aulia1.png" class="img-fluid" width="270" alt=""  >
+                            <img data-aos="fade-right" data-aos-duration="3000" src="assets/foto/fiki.png" class="img-fluid" width="222" alt=""  style="margin-top: 37px;">
+                            <img src="assets/foto/gelar-fiki1.png" class="img-fluid" width="270">
+                            <img src="assets/foto/ayat.png" class="img-fluid" alt=""  style="margin-top: 37px;">
+                        </center>
+                    </div>
+                </div>
+
+                <section id="date" class="container" style="background-image: url('assets/foto/bg-3.png'); width: 100%; background-repeat: no-repeat; background-size: cover; padding-top: 10%;">
+                    <center>
+                        <h2 style="color: #C39A61; margin-top: 50px;">Save The Date</h2>
+                        <div data-aos="flip-up" data-aos-duration="3000">
+                            <h3 class="mt-4" style="color: #C39A61; margin-bottom: 28px; margin-top: 46px;" >Akad Nikah</h3>
+                            <div class="row">
+                                <div class="col">
+                                    <img src="assets/foto/calendar.png" class="img-fluid" width="40">
+                                    <h5 class="mt-2" style="color: #C39A61;">Kamis <br> 04 Agustus 2022</h5>
+                                </div>
+                                <div class="col">
+                                    <img src="assets/foto/jam2.png" class="img-fluid" width="40">
+                                    <h5 class="mt-2" style="color: #C39A61;">Pukul <br> <small>10.00 WIT S/d Selesai</small></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="flip-up" data-aos-duration="3000">
+                            <h3 class="mt-4" style="color: #C39A61; margin-bottom: 28px; margin-top: 46px;" >Resepsi</h3>
+                            <div class="row">
+                                <div class="col">
+                                    <img src="assets/foto/calendar.png" class="img-fluid" width="40">
+                                    <h5 class="mt-2" style="color: #C39A61;">Kamis <br> 04 Agustus 2022</h5>
+                                </div>
+                                <div class="col">
+                                    <img src="assets/foto/jam2.png" class="img-fluid" width="40">
+                                    <h5 class="mt-2" style="color: #C39A61;">Pukul <br> <small>13.30 WIT S/d Selesai</small></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <h6 class="mt-3 mb-3"  style="color: #C39A61;">
+                        BTN Kariango Residance Blok B No. 7 <br> Dusun: Bira-bira Desa. Kurusumange <br> Kec.Tanralili Kab. Maros
+                        </h6>     
+                        <a href="https://goo.gl/maps/MkERrrBVGEJ71sRo9" data-aos="fade-up" data-aos-duration="3000">
+                            <img src="assets/foto/btn-map.png" alt="" width="85">
+                        </a>    
+                    </center>
+                </section>
+
+                <div class="container" style="background-image: url('assets/foto/bg-3.png'); width: 100%; background-repeat: no-repeat; background-size: cover; padding-top: 10%; padding-bottom:10px">
+                    <div class="circle-caption">
+                        <center>
+                            <img src="assets/foto/title2.png" class="img-fluid" width="308" alt=""  style="margin-top: 50px;">
+                        </center>
+                        <br>
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="assets/foto/timeline.png" width="46" height="820" alt="">
+                            </div>
+                            <div class="col-10">
+                                                                    <h5 class="text-white">Oktober 2019</h5>
+                                    <div class="card" style="border-radius: 10px; background-color:#D4A86A; margin-bottom:15px;">
+                                        <div class="card-body">
+                                            <h5 class="card-title" style="color: #ffff;">Awal Bertemu</h5>
+                                            <p class="card-text text-white p-0">
+                                                <small>
+                                                    Kisah ini berawal dari perkenalan kami di bulan Oktober 2019 Sebagai rekan kerja di suatu perusahaan                                                </small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                                                    <h5 class="text-white">Februari 2020</h5>
+                                    <div class="card" style="border-radius: 10px; background-color:#D4A86A; margin-bottom:15px;">
+                                        <div class="card-body">
+                                            <h5 class="card-title" style="color: #ffff;"></h5>
+                                            <p class="card-text text-white p-0">
+                                                <small>
+                                                    Kurang lebih 3 bulan kami mengenal lebih dekat dan intens walau belum seutuhnya, namun kami berkomitmen untuk menjadi sepasang kekasih dan mulai berbagi semua hal tentang kehidupan diusia muda                                                </small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                                                    <h5 class="text-white">Juni 2022</h5>
+                                    <div class="card" style="border-radius: 10px; background-color:#D4A86A; margin-bottom:15px;">
+                                        <div class="card-body">
+                                            <h5 class="card-title" style="color: #ffff;">Lamaran</h5>
+                                            <p class="card-text text-white p-0">
+                                                <small>
+                                                    Kami menyatukan tekad ke jenjang yg lebih serius dalam acara “mapettuada”. Tepat tanggal 24 Juni 2022 pertemuan kedua keluarga sebagai bukti dari komitmen kami.                                                </small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                                                    <h5 class="text-white">Agustus 2022</h5>
+                                    <div class="card" style="border-radius: 10px; background-color:#D4A86A; margin-bottom:15px;">
+                                        <div class="card-body">
+                                            <h5 class="card-title" style="color: #ffff;">Our wedding day</h5>
+                                            <p class="card-text text-white p-0">
+                                                <small>
+                                                    04 Agustus 2022 menjadi tanggal yg kami putuskan untuk memulai awal yg baru sebagai pasangan suami istri. Singkat yahh, namun insyallah kami yakin dan siap dengan memohon ridho dari Allah SWT. Kami pun memohon doa yg terbaik untuk kami berdua                                                </small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <section id="Memories-place" class="container" style="background-image: url('assets/foto/bg-3.png'); width: 100%; background-repeat: no-repeat; background-size: cover; padding-top: 10%;">
+                    <center>
+                        <img src="assets/foto/title-memories.png" width="232" class="img-fluid" alt="">
+                    </center>
+                    <div class="owl-carousel owl-theme our-memories-area">
+                                                    <div class="item">
+                                <div class="memory">
+                                    <div class="memories-img">
+                                        <img src="assets/foto/1.jpeg" class="img-fluid " alt="">
+                                        <div class="menorie-icon" href="assets/foto/1.jpeg">
+                                            <i class="ti-plus"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="item">
+                                <div class="memory">
+                                    <div class="memories-img">
+                                        <img src="assets/foto/2.jpeg" class="img-fluid " alt="">
+                                        <div class="menorie-icon" href="assets/foto/2.jpeg">
+                                            <i class="ti-plus"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="item">
+                                <div class="memory">
+                                    <div class="memories-img">
+                                        <img src="assets/foto/3.jpeg" class="img-fluid " alt="">
+                                        <div class="menorie-icon" href="assets/foto/3.jpeg">
+                                            <i class="ti-plus"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="item">
+                                <div class="memory">
+                                    <div class="memories-img">
+                                        <img src="assets/foto/4.jpeg" class="img-fluid " alt="">
+                                        <div class="menorie-icon" href="assets/foto/4.jpeg">
+                                            <i class="ti-plus"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                            </div>
+                    <center>
+                        <img src="assets/foto/title-special.png" width="232" class="img-fluid mt-5" alt="">
+                        <h2 style="color: #D8CA98;">Wedding Event</h2>
+                        <div id="countdown1" class="mt-3">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div style=" border: 2px solid #D4A86A;
+                                        padding: 8px;
+                                        border-radius: 10px;
+                                        width: 58px;
+                                        height: 72px;
+                                        background-color: #D4A86A;
+                                        
+                                        ">
+                                            <p class="text-center text-white">
+                                                <span class="numbers days" style="font-size: 13px;">
+                                                    00
+                                                </span>
+                                                <span style="font-size: 13px;">
+                                                    Hari
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div style=" border: 2px solid #D4A86A;
+                                        padding: 8px;
+                                        border-radius: 10px;
+                                        width: 58px;
+                                        height: 72px;
+                                        background-color: #D4A86A;
+                                        ">
+                                            <p class="text-center text-white">
+                                                <span class="numbers hours" style="font-size: 13px;">00</span>
+                                                <span style="font-size: 13px;">Jam</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div style=" border: 2px solid #D4A86A;
+                                        padding: 8px;
+                                        border-radius: 10px;
+                                        width: 58px;
+                                        height: 72px;
+                                        background-color: #D4A86A;
+                                        ">
+                                            <p class="text-center text-white">
+                                                <span class="numbers minutes" style="font-size: 13px;">00</span>
+                                                <span style="font-size: 13px;">Menit</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div style=" border: 2px solid #D4A86A;
+                                        padding: 8px;
+                                        border-radius: 10px;
+                                        width: 58px;
+                                        height: 72px;
+                                        background-color: #D4A86A;
+                                        ">
+                                            <p class="text-center text-white">
+                                                <span class="numbers seconds" style="font-size: 13px;">00</span>
+                                                <span style="font-size: 13px;">Detik</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <img src="assets/foto/title3.png" width="294" class="img-fluid mt-5" alt="">
+                    </center>
+                    <br><br><br><br>
+                </section>
+
+                <section class="container" id="amplop" style="background-image: url('assets/foto/bg-3.png'); width: 100%; background-repeat: no-repeat; background-size: cover; padding-top: 10%;">
+                <center>
+                    <img src="assets/foto/title-amplop.png" class="img-fluid" width="184" alt=""  style="margin-top: 50px;">
+                        <div class="card" style="border-radius: 10px; background-color:#D4A86A; margin-bottom:15px;">
+                            <div class="card-body">
+                                <img src="assets/foto/bank-sulselbar.png" class="img-fluid" width="87">
+                                <hr style="border: 0.8px solid #D0D7C2;">
+                                <p class="card-text text-white p-0">
+                                    No. Rekening
+                                </p>
+                                <input class="form-control text-center" type="text" value="013-201-000002141-1" id="copyText" readonly style="width:200px"> <br>
+                                <a href="#amplop" id="copyBtn">
+                                    <img src="assets/foto/tombol-copy.png" width="92" alt="">
+                                </a>
+                                <p class="card-text text-white p-0">
+                                    A/n. Riana Aulia Riska
+                                </p>
+                            </div>
+                        </div>
+                        <img src="assets/foto/title-tamu.png" class="img-fluid" width="136" alt=""  style="margin-top: 50px;">
+                        <h4 class="text-white">Kirimkan Ucapan Atau Do'a</h4>
+                        <div class="row mt-3">
+                            <div class="col">
+                                <span class="badge p-2 text-white" style="background-color:#D4A86A; margin-bottom:15px;">14</span><br>
+                                <p class="text-white">Hadir</p>
+                            </div>
+                            <div class="col">
+                                <span class="badge p-2 text-white" style="background-color:#D4A86A; margin-bottom:15px;">2</span><br>
+                                <p class="text-white">Tidak Hadir</p>
+                            </div>
+                            <div class="col">
+                                <span class="badge p-2 text-white" style="background-color:#D4A86A; margin-bottom:15px;">20</span><br>
+                                <p class="text-white">Belum Tau</p>
+                            </div>
+                        </div>
+                    </center>
+                    <div id="message" class="card" style="border-radius: 25px; background-color:#D4A86A; margin-bottom:15px;">
+                        <div class="card-body">
+                                                        <h5 class="card-title text-white">38 Ucapan</h5>
+                            <hr style="border: 0.8px solid #D0D7C2;">
+                            <form action="isi.php" method="post">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama anda" required>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" id="ucapan" placeholder="Ucapan dan Doa Restu" name="ucapan" rows="3" required></textarea >
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="ket" id="inlineRadio1" value="Hadir">
+                                    <label class="form-check-label" for="inlineRadio1">Hadir</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="ket" id="inlineRadio2" value="Tidak Hadir">
+                                    <label class="form-check-label" for="inlineRadio2">Tidak Hadir</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="ket" id="inlineRadio3" value="Belum Tau">
+                                    <label class="form-check-label" for="inlineRadio3">Belum Tau</label>
+                                </div>
+                                <button name="submit" type="submit" class="btn mt-3" style="border-radius: 25px;background-color:#AB754A;">Kirim</button>
+                            </form>
+                            <hr style="border: 0.8px solid #C39A61; margin-top:15px; margin-bottom:15px;">
+                                                        
+                                <h5 class="text-white">Tes</h5>
+                                <small style="color:#EAD4B5">2022-11-14 04:26:48</small>
+                                <p class="text-white">Tos</p>
+                                                        
+                                <h5 class="text-white">Tes</h5>
+                                <small style="color:#EAD4B5">2022-11-14 04:23:53</small>
+                                <p class="text-white">Tos</p>
+                                                        <div class="collapse" id="collapseExample">
+
+                                                                    <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Tes</h5>
+                                <small style="color:#EAD4B5">2022-11-14 04:19:01</small>
+                                <p class="text-white">Tos</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Buya</h5>
+                                <small style="color:#EAD4B5">2022-08-04 10:36:55</small>
+                                <p class="text-white">Sii Paling On Time Aulia..
+happy Wedding Sister, Smoga Menjadi Keluarga Yg Sakinah Mawaddah Wa Rahma,.. Dan Bahagia Dunia Akhirat Bersama Suami.. Aamiin</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">M.Refki</h5>
+                                <small style="color:#EAD4B5">2022-07-31 19:32:56</small>
+                                <p class="text-white">Selamat buat riska dan calon suami semoga dilancarkan sampe hari H</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">winda</h5>
+                                <small style="color:#EAD4B5">2022-07-30 18:08:44</small>
+                                <p class="text-white">semoga langgeng sampai kakek nenek kak🥳</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Elhaaaaaaaa </h5>
+                                <small style="color:#EAD4B5">2022-07-30 14:02:06</small>
+                                <p class="text-white">Happy wedding kak🥰</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">winda</h5>
+                                <small style="color:#EAD4B5">2022-07-30 13:08:16</small>
+                                <p class="text-white">semoga langgeng sampai kakek nenek kak🥳</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Elvina Nanda putri</h5>
+                                <small style="color:#EAD4B5">2022-07-30 12:22:52</small>
+                                <p class="text-white">Happy weding kk Nya anggun semoga langgeng sampai kakek nenek amin</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Luthfia Jumiatul Aqhaba</h5>
+                                <small style="color:#EAD4B5">2022-07-30 08:29:14</small>
+                                <p class="text-white">semoga bahagia smpai akhir beb 🥳</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Muhammmad Abdi Fitransyah</h5>
+                                <small style="color:#EAD4B5">2022-07-29 13:23:58</small>
+                                <p class="text-white">Happy weedding liong... Besarna mo temanku😭otw nyusul ka tahun depan</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Tiwi belisya</h5>
+                                <small style="color:#EAD4B5">2022-07-26 21:51:22</small>
+                                <p class="text-white">Sakinah Mawaddah Warahmahh Anak Baikk🥰</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Ajeng</h5>
+                                <small style="color:#EAD4B5">2022-07-26 20:58:09</small>
+                                <p class="text-white">Masya allah smoga di lancarkan sampai hari H🥰😇</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Haerul</h5>
+                                <small style="color:#EAD4B5">2022-07-26 20:58:03</small>
+                                <p class="text-white">Masha allah, lancar smpai hari H nya bestieeemmm~, semoga cpt dpt momongan,🥳🥳🥳</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Danny AK</h5>
+                                <small style="color:#EAD4B5">2022-07-26 01:40:53</small>
+                                <p class="text-white">Selamat yaa.. Aulia, semoga lancar sampai H-1, harapannya langgeng, menjadi keluarga yang berbahagia yg penuh dgn rasa syukur dlm setiap keadaan senang maupun susah, manisnya tdk hanya d awal tapi selamanya amin..
+
+Terima kasih atas undangannya..</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Yuni Maulidiyanti</h5>
+                                <small style="color:#EAD4B5">2022-07-26 00:08:03</small>
+                                <p class="text-white">Masya Allah🥰 Selamat Ryana, Lancar trus smpai hari H😇</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Sinar</h5>
+                                <small style="color:#EAD4B5">2022-07-25 19:46:24</small>
+                                <p class="text-white">Masya Allah, dilancarkann sampai hari H😇</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Tenriajeng</h5>
+                                <small style="color:#EAD4B5">2022-07-25 18:03:26</small>
+                                <p class="text-white">Maa syaa Allah, tabarakallah. Semoga dimudahkan segala urusannya menuju akad😇</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Andi Feby</h5>
+                                <small style="color:#EAD4B5">2022-07-25 17:49:40</small>
+                                <p class="text-white">Masyallah Samawa bebku</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Sufhar</h5>
+                                <small style="color:#EAD4B5">2022-07-25 17:05:50</small>
+                                <p class="text-white">Lancar Sampai Hari-H Bestie </p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Ketua Kelas</h5>
+                                <small style="color:#EAD4B5">2022-07-25 16:54:13</small>
+                                <p class="text-white">Alhamdulillah kabar baik, semoga di lancarkan sampai hari H-nya yahh✨</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Muh Fajri Ramadan</h5>
+                                <small style="color:#EAD4B5">2022-07-25 16:45:42</small>
+                                <p class="text-white">Semoga menjadi keluarga samawa au...😁</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Taufik mustari</h5>
+                                <small style="color:#EAD4B5">2022-07-25 16:44:59</small>
+                                <p class="text-white">Masya Allah seperjuangann . Semoga dilancarkan sampai Hari H yah bestiee</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">idaaa</h5>
+                                <small style="color:#EAD4B5">2022-07-25 16:16:11</small>
+                                <p class="text-white">aaaaaaa auuu😍😭😭😭 
+masyaAllah Lancar sampai hari H-nya, sakinah mawadah warahmah yahhh😘
+till jannah, jadi istri Sholehah🫶🖤🖤</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Dinda Ramadhani</h5>
+                                <small style="color:#EAD4B5">2022-07-25 16:09:36</small>
+                                <p class="text-white">Lancar sampai hari H auu, semoga kelak Jd keluarga yg samawa</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Riski damayanti</h5>
+                                <small style="color:#EAD4B5">2022-07-25 16:07:10</small>
+                                <p class="text-white">Masyaallah, lancar sampai hari H nya liaa🥰</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">ica</h5>
+                                <small style="color:#EAD4B5">2022-07-25 16:02:46</small>
+                                <p class="text-white">masyaallah, lancar sampai hari H kk cntikk🥰🥰</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Wiwi</h5>
+                                <small style="color:#EAD4B5">2022-07-25 16:02:42</small>
+                                <p class="text-white">Lancar sampai hari H nya kakak liaaa 🫶🏻❤️‍🔥❤️‍🔥</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Farahdiba</h5>
+                                <small style="color:#EAD4B5">2022-07-25 15:57:16</small>
+                                <p class="text-white">Masyaallah alhamdulillah sayangku, lancar sampai hari- H nya</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">PUJI FAJRIANI AZZAHRAH</h5>
+                                <small style="color:#EAD4B5">2022-07-25 15:56:30</small>
+                                <p class="text-white">Masya allah, lancar sampai hari H sist🥰</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Adelya Syacharani </h5>
+                                <small style="color:#EAD4B5">2022-07-25 15:54:00</small>
+                                <p class="text-white">Masyallah tabarakallah..
+Lancar sampai hari H..
+Sampai bertemu di hari bahagianya auuu nanti...
+Tunggu adel yaaaaaahh..
+Semoga semua lancar aminnn🥰🥰🥰</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Ardaa</h5>
+                                <small style="color:#EAD4B5">2022-07-25 15:10:03</small>
+                                <p class="text-white">Selamat kk auliaa lancar sampe hari H nya❤</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Irma Damayanti</h5>
+                                <small style="color:#EAD4B5">2022-07-25 14:52:11</small>
+                                <p class="text-white">Selamat menempuh ibadah terpanjang diksss 💋 Samawa till Jannah 🤲</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Gazali</h5>
+                                <small style="color:#EAD4B5">2022-07-24 21:57:39</small>
+                                <p class="text-white">Selamat kak </p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Abhi</h5>
+                                <small style="color:#EAD4B5">2022-07-24 02:41:19</small>
+                                <p class="text-white">Allah SWT akhirnya mempertemukanmu dengan jodoh yang selama ini kamu cari. Semoga pernikahan kalian berdua langgeng sampai akhir hayat dan dipenuhi kehagiaan</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Hasrul</h5>
+                                <small style="color:#EAD4B5">2022-07-24 02:34:04</small>
+                                <p class="text-white">Pernikahan yang kalian jalani hari ini semoga menjadi berkah. Semoga kalian berdua dikaruani anak-anak berbakti dan mencapai kebahagiaan bersama.</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Addin</h5>
+                                <small style="color:#EAD4B5">2022-07-24 02:33:27</small>
+                                <p class="text-white">Selamat atas pernikahannya.  Semoga Allah SWT selalu menghujani banyak kebahagiaan dan keberkahan hingga maut memisahkan</p>
+                                                                <hr style="border: 0.1px solid #D0D7C2; margin-top:15px; margin-bottom:15px;">
+                            
+                                <h5 class="text-white">Obi</h5>
+                                <small style="color:#EAD4B5">2022-07-24 02:32:26</small>
+                                <p class="text-white">Selamat menikah dan menempuh hidup baru! Semoga menjadi pasangan yang sakinah mawaddah warohmah.</p>
+                                                        </div>
+                                                        <p>
+                                <a style="color: #EAD4B5" class="" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Komentar lainnya...
+                                </a>
+                            </p>
+                            
+                        </div>
+                    </div>
+                </section>
+                <section class="container" class="container" style="background-image: url('assets/foto/bg-close.png'); width: 100%; background-repeat: no-repeat; background-size: cover; padding-bottom:100px;">
+                    <center>
+                        <img src="assets/foto/title-thanks.png" class="img-fluid" width="190" alt=""  style="margin-top: 80px; margin-bottom: 660px;">
+                        <p class="text-white">
+                            © 2022, Faskho Production. 
+                            <br> 
+                            <a href="https://faskho.com">
+                                <img src="assets/images/web.png" width="14" alt="">
+                                faskho.com
+                            </a>
+                            <br>
+                            <a href="https://www.instagram.com/faskho.pro/">
+                                <img src="assets/images/ig.png" width="22" alt="">
+                                @faskho.pro
+                            </a>
+                        </p>
+                    </center>
+                </section>
+        </div>
+
+
+    </main>
+
+	<!-- JS here -->
+
+		<!-- All JS Custom Plugins Link Here here -->
+        <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+		<!-- Jquery, Popper, Bootstrap -->
+		<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="./assets/js/vendor/popper.min.js"></script>
+        <script src="./assets/js/vendor/bootstrap.min.js"></script>
+	    <!-- Jquery Mobile Menu -->
+        <script src="./assets/js/vendor/jquery.slicknav.min.js"></script>
+
+		<!-- Jquery Slick , Owl-Carousel Plugins -->
+        <script src="./assets/js/vendor/owl.carousel.min.js"></script>
+        <script src="./assets/js/vendor/slick.min.js"></script>
+        <!-- Date Picker -->
+        <script src="./assets/js/vendor/gijgo.min.js"></script>
+		<!-- One Page, Animated-HeadLin -->
+        <script src="./assets/js/vendor/wow.min.js"></script>
+		<script src="./assets/js/vendor/animated.headline.js"></script>
+        <script src="./assets/js/vendor/jquery.magnific-popup.js"></script>
+
+		<!-- Scrollup, nice-select, sticky -->
+        <script src="./assets/js/vendor/jquery.scrollUp.min.js"></script>
+        <script src="./assets/js/vendor/jquery.nice-select.min.js"></script>
+		<script src="./assets/js/vendor/jquery.sticky.js"></script>
+
+        <!-- contact js -->
+        <script src="./assets/js/vendor/contact.js"></script>
+        <script src="./assets/js/vendor/jquery.form.js"></script>
+        <script src="./assets/js/vendor/jquery.validate.min.js"></script>
+        <script src="./assets/js/vendor/mail-script.js"></script>
+        <script src="./assets/js/vendor/jquery.ajaxchimp.min.js"></script>
+
+		<!-- Jquery Plugins, main Jquery -->
+        <script src="./assets/js/vendor/plugins.js"></script>
+        <script src="./assets/js/vendor/main.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
+            $("#play-btn").click(function(){
+                let btn_pause = document.getElementById("pause-btn");
+                let btn_play = document.getElementById("play-btn");
+                btn_pause.classList.remove("d-none");
+                btn_play.classList.add("d-none");
+                var audio = document.getElementById("audio");
+                audio.play();
+            });
+            $("#pause-btn").click(function(){
+                let btn_play = document.getElementById("play-btn");
+                let btn_pause = document.getElementById("pause-btn");
+                btn_play.classList.remove("d-none");
+                btn_pause.classList.add("d-none");
+                var audio = document.getElementById("audio");
+                audio.pause();
+            });
+
+            $("#btn-buka").click(function(){
+                let btn_pause = document.getElementById("pause-btn");
+                let nav = document.getElementById("navbar");
+                let isi = document.getElementById("isi");
+                var cover = document.getElementById("cover-depan");
+                cover.classList.add("d-none");
+                nav.classList.remove("d-none");
+                isi.classList.remove("d-none");
+                btn_pause.classList.remove("d-none");
+                var audio = document.getElementById("audio");
+                audio.play();
+            });
+
+            const copyBtn = document.getElementById('copyBtn')
+            const copyText = document.getElementById('copyText')
+
+            copyBtn.onclick = () => {
+                copyText.select();    // Selects the text inside the input
+                document.execCommand('copy');    // Simply copies the selected text to clipboard 
+                Swal.fire({         //displays a pop up with sweetalert
+                    icon: 'success',
+                    text: 'No Rekening Tercopy',
+                    showConfirmButton: false,
+                    timer: 1000
+                });
+            }
+        </script>
+
+        <script>
+            AOS.init();
+        </script>
+        <script>
+            $(document).ready(function(){
+	//
+  (function(e){
+		e.fn.countdown = function (t, n){
+			function i(){
+				eventDate = Date.parse(r.date) / 1e3;
+				currentDate = Math.floor(e.now() / 1e3);
+				//
+				if(eventDate <= currentDate){
+					n.call(this);
+					clearInterval(interval)
+				}
+				//
+				seconds = eventDate - currentDate;
+				days = Math.floor(seconds / 86400);
+				seconds -= days * 60 * 60 * 24;
+				hours = Math.floor(seconds / 3600);
+				seconds -= hours * 60 * 60;
+				minutes = Math.floor(seconds / 60);
+				seconds -= minutes * 60;
+				//
+				days == 1 ? thisEl.find(".timeRefDays").text("Days") : thisEl.find(".timeRefDays").text("Days");
+				hours == 1 ? thisEl.find(".timeRefHours").text("Hours") : thisEl.find(".timeRefHours").text("Hours");
+				minutes == 1 ? thisEl.find(".timeRefMinutes").text("Minutes") : thisEl.find(".timeRefMinutes").text("Minutes");
+				seconds == 1 ? thisEl.find(".timeRefSeconds").text("Seconds") : thisEl.find(".timeRefSeconds").text("Seconds");
+				//
+				if(r["format"] == "on"){
+					days = String(days).length >= 2 ? days : "0" + days;
+					hours = String(hours).length >= 2 ? hours : "0" + hours;
+					minutes = String(minutes).length >= 2 ? minutes : "0" + minutes;
+					seconds = String(seconds).length >= 2 ? seconds : "0" + seconds
+				}
+				//
+				if(!isNaN(eventDate)){
+					thisEl.find(".days").text(days);
+					thisEl.find(".hours").text(hours);
+					thisEl.find(".minutes").text(minutes);
+					thisEl.find(".seconds").text(seconds)
+				}
+        else{
+          errorMessage = "Invalid date. Example: 27 March 2015 17:00:00";
+					alert(errorMessage);
+					console.log(errorMessage);
+					clearInterval(interval)
+				}
+			}
+			//
+			var thisEl = e(this);
+			var r = {
+				date: null,
+				format: null
+			};
+			//
+			t && e.extend(r, t);
+			i();
+			interval = setInterval(i, 1e3)
+		}
+	})(jQuery);
+	//
+	$(document).ready(function(){
+		function e(){
+			var e = new Date;
+			e.setDate(e.getDate() + 60);
+			dd = e.getDate();
+			mm = e.getMonth() + 1;
+			y = e.getFullYear();
+			futureFormattedDate = mm + "/" + dd + "/" + y;
+			return futureFormattedDate
+		}
+		//
+		$("#countdown").countdown({
+			date: "04 August 2022 23:59:59", // change date/time here - do not change the format!
+			format: "on"
+		});
+		$("#countdown1").countdown({
+			date: "04 August 2022 23:59:59", // change date/time here - do not change the format!
+			format: "on"
+		});
+	});
+});
+        </script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            stagePadding: 50,
+            loop:true,
+            margin:10,
+            nav:false,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        })
+    </script>
+    </body>
+</html>
